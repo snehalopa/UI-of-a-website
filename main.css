@@ -198,6 +198,7 @@ body{
     float: left;
     border-radius:20px;
     background-color: white;
+    padding:2px;
 }
 .candidate2{
     height:300px;
@@ -206,6 +207,7 @@ body{
     margin-left:100px;
     border-radius:20px;
     background-color: white;
+    padding:2px;
 }
 .imagebox{
     height:120px;
