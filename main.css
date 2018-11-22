@@ -66,6 +66,8 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     color: rgb(23, 72, 177);
+    border-color: white;
+    background-color: white;
 }
 #asimpleheading{
     font-weight: bold;
@@ -86,6 +88,7 @@ body{
     padding-bottom: 10px;
     background-color:rgb(0, 123, 255);
     color: white;
+    border-color: rgb(0, 123, 255);
 }
 .bodyheadingwhite{
     font-weight: bolder;
@@ -131,12 +134,15 @@ body{
     width: 33.1%;
     margin-top: 100px;
     float: left;
+    text-align:center;
     }
 .coach{
     height:450px;
-    width: 33.1%;
+    text-align: center;
+    width: 31%;
     margin-top: 40px;
     float: left;
+    padding:15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 #john{
@@ -151,7 +157,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 #register{
-    margin-left: 100px;
+    
+    
     margin-top:20px;
     border-radius: 20px;
     font-size: 15px;
@@ -160,12 +167,18 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color:rgb(0, 123, 255);
+    border-color: rgb(0, 123, 255);
     color: white;
 }
 .coachimage{
     border-radius: 50%;
-    margin-left:100px;    
+    border:2px solid blue;    
     }
+.coachimagemain{
+    border-radius: 50%;
+    border:2px solid blue; 
+    padding:10px;
+}
 .coachinfo{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -267,6 +280,7 @@ body{
     padding-bottom: 10px;
     background-color:rgb(0, 123, 255);
     color: white;
+    border-color: rgb(0, 123, 255);
 }
 #externalborder{
     height:400px;
